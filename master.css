@@ -1,0 +1,141 @@
+body{
+        background-color: #e4f9f5;
+        text-align: center;
+        margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.top-container{
+        border: 10px;
+        padding: 20px;
+        padding-top: 150px;
+        font-family: Papyrus, fantasy;
+        padding-bottom: 120px;
+}
+
+.overview-image{
+        max-width:100%;
+        height:auto;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-container1{
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+.middle-container2{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.service-image{
+        max-width:100%;
+        height:auto;
+}
+
+.middle-container3{
+        padding-top: 150px;
+        background-color: powderblue;
+        padding-bottom: 120px;
+}
+
+.middle-container4{
+        width: 100%;
+        padding-top: 400px;
+        background-color: powderblue;
+        padding-bottom: 120px;
+        display: block;
+}
+
+.bottom-container{
+        background-color: #e4f9f5;
+}
+
+.row-of-containers{
+
+}
+
+.box1{
+        flex: auto;
+        float:left;
+               background:Red;
+               width:33%;
+               height:auto;
+}
+
+.box2{
+        flex:auto;
+        float:left;
+               background:powderblue;
+               width:33%;
+               height:auto;
+}
+
+.box3{
+        flex: auto;
+        float:right;
+               background:green;
+               width:33%;
+               height:auto;
+}
+
+.hide {
+  display: none;
+}
+
+.disp:hover + .hide {
+        display: block;
+        color: black;
+}
+
+.img1{
+        position: relative;
+        bottom: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:1;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
