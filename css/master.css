@@ -18,11 +18,13 @@ html, body {
         padding-top: 150px;
         font-family: Papyrus, fantasy;
         padding-bottom: 120px;
+        max-height: 100vh;
 }
 
 .overview-image{
-        max-width:100%;
-        height:auto;
+        margin:0;
+        height:100vh;
+        width:100vw;
 }
 
 .centered{
@@ -36,17 +38,20 @@ html, body {
         position: relative;
         text-align: center;
         color: white;
+        max-height: 100vh;
 }
 
 .middle-container2{
   position: relative;
   text-align: center;
   color: white;
+  max-height: 100vh;
 }
 
 .service-image{
-        max-width:100%;
-        height:auto;
+        height: 100vh;
+        width:100vw;
+        margin:0;
 }
 
 .middle-container3{
@@ -61,6 +66,7 @@ html, body {
         background-color: powderblue;
         padding-bottom: 120px;
         display: block;
+        max-height: 100vh;
 }
 
 .bottom-container{
@@ -74,27 +80,61 @@ html, body {
 .box1{
         flex: auto;
         float:left;
-               background:Red;
                width:33%;
                height:auto;
+        height:100vh;
+        z-index:2;
 }
 
 .box2{
         flex:auto;
         float:left;
-               background:powderblue;
                width:33%;
                height:auto;
+               height:100vh;
+               z-index:2;
 }
 
 .box3{
         flex: auto;
         float:right;
-               background:green;
                width:33%;
                height:auto;
+               height:100vh;
+               z-index:2;
 }
-
+.boximg1, .boximg2, .boximg3{
+  position:absolute;
+  top:297.5vh;
+  max-width:33.3333vw;
+  height: 100vh;
+  z-index:0;
+}
+.boximg1{
+  left:0;
+}
+.boximg2{
+  left:33.3333vw;
+}
+.boximg3{
+  left:66.6666vw;
+}
+.boxtxt1,.boxtxt2,.boxtxt3{
+  z-index:0;
+  position: absolute;
+}
+.boxtxt1{
+  max-width:33vw;
+  margin-left:1vw;
+}
+.boxtxt1{
+  max-width:33vw;
+  margin-left:1vw;
+}
+.boxtxt1{
+  max-width:33vw;
+  margin-left:1vw;
+}
 .hide {
   display: none;
 }
